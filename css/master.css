@@ -98,6 +98,7 @@ header .landing .logo {
 @media (max-width: 767px) {
   header .landing .logo {
     margin-bottom: 2.5rem;
+    height: 80%;
   }
 }
 
@@ -129,7 +130,7 @@ header .landing .buttons {
   header .landing .buttons {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 3rem;
   }
 }
@@ -153,7 +154,7 @@ header .landing .buttons .button {
 }
 @media (max-width: 767px) {
   header .landing .buttons .button {
-    padding: 1rem 5rem;
+    padding: 1rem 4rem;
   }
 }
 @media (min-width: 768px) {
@@ -503,7 +504,7 @@ section:nth-of-type(5) .buttons {
   section:nth-of-type(5) .buttons {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 3rem;
   }
 }
@@ -527,7 +528,7 @@ section:nth-of-type(5) .buttons .button {
 }
 @media (max-width: 767px) {
   section:nth-of-type(5) .buttons .button {
-    padding: 1rem 6rem;
+    padding: 1rem 4rem;
   }
 }
 @media (min-width: 768px) {
@@ -643,11 +644,17 @@ footer .container .social-media {
   gap: 2rem;
   list-style: none;
 }
+@media (max-width: 767px) {
+  footer .container .social-media {
+    gap: 3rem;
+  }
+}
 @media (min-width: 767px) and (max-width: 1199px) {
   footer .container .social-media {
     padding-right: 1rem;
   }
 }
+
 footer .container .social-media li a {
   color: var(--Dark-Grayish-Blue);
   font-size: 1.8rem;

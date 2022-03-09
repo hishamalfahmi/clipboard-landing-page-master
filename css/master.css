@@ -98,7 +98,7 @@ header .landing .logo {
 @media (max-width: 767px) {
   header .landing .logo {
     margin-bottom: 2.5rem;
-    height: 80%;
+    height: 100px;
   }
 }
 
@@ -170,6 +170,7 @@ header .landing .buttons .button:first-child {
 
 header .landing .buttons .button:last-child {
   background-color: var(--Light-Blue);
+  background-color: red;
   border-color: hsl(233, 50%, 52%);
 }
 
